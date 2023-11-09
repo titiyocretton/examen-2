@@ -38,3 +38,27 @@ video {
   block-size: auto;
   vertical-align: middle;
 }
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #ffeeb08e;
+  border: 1px solid #ffd737;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav {
+    display: none;
+  }
+}
