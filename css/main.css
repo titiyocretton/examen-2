@@ -63,3 +63,7 @@ video {
     display: none;
   }
 }
+
+span {
+  font-weight: bold;
+}
