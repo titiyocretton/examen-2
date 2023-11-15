@@ -27,6 +27,8 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   font-family: "Mukta", sans-serif;
+  background: #0d0c11;
+  color: white;
 }
 
 a {
@@ -41,7 +43,7 @@ video {
   vertical-align: middle;
 }
 
-/* .row + .row {
+.row + .row {
   margin-top: 16px;
 }
 
@@ -51,7 +53,7 @@ video {
   padding-bottom: 12px;
   background-color: #ffeeb08e;
   border: 1px solid #ffd737;
-} */
+}
 
 @media (min-width: 992px) {
   .menu {
