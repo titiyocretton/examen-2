@@ -92,9 +92,21 @@ h3 {
   padding-bottom: 40px;
 }
 
+.container-bouton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
+}
+
+.image {
+  background: var(--primary-color);
+  height: 615px;
+  background-image: url("../img/resto.jpg");
 }
 
 .section-intro {
@@ -135,6 +147,24 @@ span {
 
 .menu-jour p {
   line-height: 30px;
+}
+
+footer {
+  padding: 65px 0 80px;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.background-footer {
+  background: black;
+}
+
+.cta-contacte {
+  justify-content: space-between;
+}
+
+.cta-retour {
+  gap: 26px;
 }
 
 @media (max-width: 992px) {
@@ -178,6 +208,13 @@ span {
   }
   .background-menu-jour {
     background: #545d65;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-contacte {
+    justify-content: center;
+    gap: 40px;
   }
 }
 
