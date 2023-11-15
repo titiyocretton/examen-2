@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --primary-color: #cb7266;
 }
 
 /* ====================================
@@ -29,6 +30,7 @@ body {
   font-family: "Mukta", sans-serif;
   background: #0d0c11;
   color: white;
+  font-size: 20px;
 }
 
 a {
@@ -43,7 +45,7 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -53,20 +55,77 @@ video {
   padding-bottom: 12px;
   background-color: #ffeeb08e;
   border: 1px solid #ffd737;
+} */
+
+span {
+  font-weight: bold;
 }
 
-@media (min-width: 992px) {
-  .menu {
-    display: none;
-  }
+header {
+  color: var(--primary-color);
+  font-size: 32px;
+  padding-bottom: 80px;
+}
+
+.title-box {
+  padding: 34px 0 20px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+  padding-bottom: 11px;
+}
+
+.container-logo {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-intro {
+  padding-bottom: 80px;
+}
+
+.section-event {
+  background: #d5dce4;
+  color: #0d0c11;
+  padding: 80px 0;
 }
 
 @media (max-width: 992px) {
   .nav {
     display: none;
   }
+  h1 {
+    font-size: 20px;
+  }
+  .title-box {
+    padding: 13px 0 16px;
+  }
+  header {
+    padding-bottom: 40px;
+  }
+  h2 {
+    padding-bottom: 25px;
+  }
+  .section-intro {
+    padding-bottom: 40px;
+  }
 }
 
-span {
-  font-weight: bold;
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
 }
