@@ -38,6 +38,13 @@ a {
   text-decoration: none;
 }
 
+.cta {
+  background: white;
+  padding: 15px 40px;
+  border-radius: 20px;
+  color: black;
+}
+
 img,
 video {
   max-inline-size: 100%;
@@ -107,6 +114,8 @@ nav {
   background: var(--primary-color);
   height: 615px;
   background-image: url("../img/resto.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .section-intro {
@@ -167,6 +176,23 @@ footer {
   gap: 26px;
 }
 
+footer h2 {
+  padding-bottom: 20px;
+}
+
+.adresse {
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.horair {
+  line-height: 30px;
+}
+
+footer .cta {
+  background: var(--primary-color);
+}
+
 @media (max-width: 992px) {
   .nav {
     display: none;
@@ -215,6 +241,9 @@ footer {
   .cta-contacte {
     justify-content: center;
     gap: 40px;
+  }
+  .image {
+    height: 250px;
   }
 }
 
