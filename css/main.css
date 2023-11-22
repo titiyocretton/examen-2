@@ -67,11 +67,10 @@ video {
 header {
   color: var(--primary-color);
   font-size: 32px;
-  padding-bottom: 80px;
-}
-
-.title-box {
+  background: #0d0c11;
+  position: fixed;
   padding: 34px 0 20px;
+  width: 100%;
 }
 
 h1 {
@@ -109,12 +108,17 @@ nav {
   justify-content: space-between;
 }
 
+.espace {
+  height: 90px;
+}
+
 .image {
   background: var(--primary-color);
   height: 615px;
   background-image: url("../img/resto.jpg");
   background-size: cover;
   background-position: center;
+  margin: 0 0 80px;
 }
 
 .section-intro {
@@ -205,12 +209,6 @@ footer .cta {
   h1 {
     font-size: 20px;
   }
-  .title-box {
-    padding: 13px 0 16px;
-  }
-  header {
-    padding-bottom: 40px;
-  }
   h2 {
     padding-bottom: 25px;
   }
@@ -248,7 +246,7 @@ footer .cta {
     gap: 40px;
   }
   .image {
-    height: 250px;
+    height: 300px;
   }
 }
 
