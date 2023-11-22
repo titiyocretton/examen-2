@@ -52,7 +52,7 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -62,7 +62,7 @@ video {
   padding-bottom: 12px;
   background-color: #ffeeb08e;
   border: 1px solid #ffd737;
-}
+} */
 
 header {
   color: var(--primary-color);
