@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/burger-menu.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +26,12 @@
               </div>
             </div>
             <div class="col-2 col-lg-8">
-              <div class="menu">menu</div>
+              <div class="menu">
+                <div class="menu-burger">
+                  <div class="line line-top"></div>
+                  <div class="line line-bottom"></div>
+                </div>
+              </div>
               <div class="nav">
                 <nav>
                   <a href="">connexion</a>
@@ -37,6 +43,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="nav-burger hidden">
+        <a href="">connexion</a>
+        <a href="">menu</a>
+        <a href="">commander</a>
+        <a href="">fr/de</a>
       </div>
     </header>
     <div class="espace" id="debut"></div>
@@ -190,5 +202,6 @@
         </footer>
       </div>
     </div>
+    <script src="js/burger-menu.js"></script>
   </body>
 </html>

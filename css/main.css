@@ -266,12 +266,6 @@ footer .cta {
   }
 }
 
-@media (min-width: 992px) {
-  .menu {
-    display: none;
-  }
-}
-
 header .container-logo:hover,
 header a:hover {
   color: rgb(255, 255, 255);

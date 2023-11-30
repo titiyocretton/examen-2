@@ -1,0 +1,79 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  --primary-color: #cb7266;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  border-bottom: 3px solid var(--primary-color);
+  padding: 5px 20px;
+  transition: 0.1s;
+}
+
+.menu:hover .line {
+  border-color: rgb(255, 255, 255);
+}
+
+.line-top {
+  border-top: 3px solid var(--primary-color);
+}
+
+.line-top.move {
+  transform: rotateZ(45deg);
+  position: relative;
+  border-bottom: none;
+  top: 10px;
+}
+
+.line-bottom.move {
+  transform: rotateZ(-45deg);
+  position: relative;
+  top: -10px;
+}
+
+.hidden {
+  position: relative;
+  transform: translateY(-300px);
+  opacity: 0;
+}
+
+.nav-burger {
+  background: #0d0c11;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 110px;
+  width: 100%;
+}
+
+.nav-burger a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 5px 10px;
+}
+
+.nav-burger a:last-child {
+  padding-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+  .nav-burger {
+    display: none;
+  }
+}
