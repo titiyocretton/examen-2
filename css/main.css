@@ -245,6 +245,13 @@ footer .cta {
   }
 }
 
+@media (max-width: 1200px) {
+  footer .cta {
+    padding: 15px 25px;
+    border-radius: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .cta-contacte {
     justify-content: center;
@@ -253,10 +260,23 @@ footer .cta {
   .image {
     height: 300px;
   }
+  footer .cta {
+    padding: 15px 40px;
+    border-radius: 20px;
+  }
 }
 
 @media (min-width: 992px) {
   .menu {
     display: none;
   }
+}
+
+header .container-logo:hover,
+header a:hover {
+  color: rgb(255, 255, 255);
+}
+
+footer .cta:hover {
+  background: white;
 }
