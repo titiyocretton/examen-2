@@ -301,3 +301,21 @@ footer .cta:hover,
   background: #0d0c11;
   color: white;
 }
+
+.inactive:hover {
+  opacity: 0;
+  position: relative;
+}
+
+.active:hover {
+  opacity: 1;
+}
+
+.icon-primary-color:hover path,
+.container-logo:hover path {
+  fill: white;
+}
+
+.icon-fleche-haut:hover circle {
+  fill: white;
+}
