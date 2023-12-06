@@ -291,6 +291,13 @@ header a:hover {
   color: rgb(255, 255, 255);
 }
 
-footer .cta:hover {
+footer .cta:hover,
+.cta-event:hover {
   background: white;
+  color: #0d0c11;
+}
+
+.cta-menu:hover {
+  background: #0d0c11;
+  color: white;
 }
