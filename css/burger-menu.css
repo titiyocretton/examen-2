@@ -10,7 +10,7 @@
 // reset rules
 // ==================================== */
 
-.menu {
+.menu-burger {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@
   transition: 0.1s;
 }
 
-.menu:hover .line {
+.menu-burger:hover .line {
   border-color: rgb(255, 255, 255);
 }
 
