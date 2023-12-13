@@ -18,6 +18,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -70,6 +71,7 @@ header {
   position: fixed;
   padding: 34px 0 20px;
   width: 100%;
+  z-index: 1;
 }
 
 h1 {
@@ -118,6 +120,29 @@ nav {
   background-size: cover;
   background-position: center;
   margin: 0 0 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  justify-content: space-around;
+}
+
+.pigeon-image {
+  max-width: 150px;
+  margin: 30px;
+  animation: pigeon 1.5s infinite linear;
+}
+
+.pigeon-1 {
+  align-self: flex-end;
+}
+
+@keyframes pigeon {
+  25% {
+    transform: rotateZ(5deg);
+  }
+  75% {
+    transform: rotateZ(-5deg);
+  }
 }
 
 .section-intro {
@@ -270,6 +295,10 @@ footer .cta {
   }
   .image {
     height: 300px;
+    gap: 10px;
+  }
+  .pigeon-image {
+    max-width: 80px;
   }
   footer .cta {
     padding: 15px 40px;
