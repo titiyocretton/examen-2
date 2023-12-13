@@ -128,6 +128,8 @@ nav {
   color: #0d0c11;
   padding: 60px 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .background-event {
@@ -276,12 +278,6 @@ footer .cta {
   .section-event {
     flex-direction: column;
     align-items: center;
-  }
-}
-
-@media (min-width: 768px) {
-  .cta-event {
-    display: none;
   }
 }
 
